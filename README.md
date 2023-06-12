@@ -6,7 +6,7 @@ How can you help Sunita Sharma (65+ years old) to live a healthier and better li
 Identify one use case for elderly care (for the age group 65+) and create a working prototype to demonstrate your idea using technology known to you.
 
 ### Solution ###
-_Name of the application_ -  SwASTHA APP 
+_Name of the application_ -  SWASTHA APP 
 
 **Description**
 The aim of this application is to have Sunita sharma or any other senior citizen whose age is 65 or above healthy and better life. 
