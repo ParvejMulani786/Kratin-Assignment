@@ -6,9 +6,9 @@ How can you help Sunita Sharma (65+ years old) to live a healthier and better li
 Identify one use case for elderly care (for the age group 65+) and create a working prototype to demonstrate your idea using technology known to you.
 
 ### Solution ###
-_Name of the application_ - #### SwASTHA APP ####
+_Name of the application_ -  SwASTHA APP 
 
-_Description_
+**Description**
 The aim of this application is to have Sunita sharma or any other senior citizen whose age is 65 or above healthy and better life. 
 I have made this application in which senior citizen can find various features related to health.
 To fulfill this requirement I added various features in this application including some common features
@@ -16,24 +16,24 @@ like Blogs on health problems , Latest health news one of the unique feature tha
 health education through video tutorials.
 In this way, this application makes user happy.
  
-_Tools and Technologies used_
+**Tools and Technologies used**
 
-Front-End
+_Front End_
 * React.Js
 * Bootstrap
 * CSS
 * HTML
 * JavaScript
 
-Back-End
+_Back End_
 * .Net core
 * Entity Framework
 * ASP.NET core Web Api
 
-Database
-*MySQL
+_Database_
+* MySQL
 
-_Features an functionalities_
+**Features an functionalities**
 
 _Registration and Login_
 Features like Registration added. In-app registration and user 
