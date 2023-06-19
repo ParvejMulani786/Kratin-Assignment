@@ -36,7 +36,7 @@ In this way, this application makes user happy.
 **Features an functionalities**
 
 **Registration and Login**
-Features like Registration added. In-app user's Authentication and Authorization is validated with JSON Web Token (JWT) then only he/she can access the services.
+Features like Registration added. In-app user Authentication and Authorization is validated by JSON Web Token (JWT) , Only valid user can access the services.
 
 **Latest News**
 The app has feature that track the changes and updates of the medical industry.
