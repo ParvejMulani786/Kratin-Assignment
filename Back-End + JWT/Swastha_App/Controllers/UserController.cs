@@ -38,7 +38,7 @@ namespace Swastha_App.Controllers
         }
 
 
-
+        [AllowAnonymous]
         [HttpPost]
         public List<User> Post(User u)
         {

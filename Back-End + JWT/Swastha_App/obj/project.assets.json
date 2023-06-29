@@ -1886,11 +1886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\Kratin Assignmenet\\Back-End\\Swastha_App\\Swastha_App.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\Kratin Assignmenet\\HealthCare Project with JWT\\Back-End + JWT\\Swastha_App\\Swastha_App.csproj",
       "projectName": "Swastha_App",
-      "projectPath": "C:\\Users\\ADMIN\\Downloads\\Kratin Assignmenet\\Back-End\\Swastha_App\\Swastha_App.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Downloads\\Kratin Assignmenet\\HealthCare Project with JWT\\Back-End + JWT\\Swastha_App\\Swastha_App.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Downloads\\Kratin Assignmenet\\Back-End\\Swastha_App\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Downloads\\Kratin Assignmenet\\HealthCare Project with JWT\\Back-End + JWT\\Swastha_App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1901,7 +1901,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1970,7 +1970,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

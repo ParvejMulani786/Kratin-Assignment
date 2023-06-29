@@ -24,12 +24,12 @@ namespace Swastha_App.Controllers
 
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Post(User user)
+        [HttpPost("{username}/{password}")]
+        public async Task<IActionResult> Post(string username, string password)
         {
-            if (user != null && user.Username != null && user.Password != null)
+            if (username != null && password != null)
             {
-                var userData = await GetUser(user.Username, user.Password);
+                User userData = db.Users.FirstOrDefault(u => u.Username.Equals(username) && u.Password.Equals(password));
                 var jwt = _config.GetSection("Jwt").Get<Jwt>();
                 Console.WriteLine(userData);
 
@@ -40,21 +40,36 @@ namespace Swastha_App.Controllers
                         new Claim(JwtRegisteredClaimNames.Sub, jwt.Subject),
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                         new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
-                        new Claim("Id", user.Id.ToString()),
-                        new Claim("Username", user.Username),
-                        new Claim("Password", user.Password)
+                        new Claim("Id", userData.Id.ToString()),
+                        new Claim("Username", userData.Username),
+                        new Claim("Password", userData.Password),
+                        //new Claim("FirstName", user.FirstName),
+                        //new Claim("LastName", user.LastName),
+                        //new Claim("Age", user.Age.ToString()),
+                        //new Claim("Contact", user.Contact),
+                        //new Claim("Gender", user.Gender),
+                        //new Claim("Street", user.Street),
+                        //new Claim("State", user.State),
+                        //new Claim("City", user.City),
+                        //new Claim("Pincode", user.Pincode),
+                      
+
 
                     };
                     var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt.Key));
                     var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                    var u = userData;
                     var token = new JwtSecurityToken(
                        jwt.Issuer,
                        jwt.Audience,
                         claims,
                         expires: DateTime.Now.AddMinutes(20),
                         signingCredentials: signIn
+                        
+
                     );
-                    return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+                    var token1 = new JwtSecurityTokenHandler().WriteToken(token);
+                    return Ok(new { token1,userData});
                 }
                 else
                 {
@@ -74,11 +89,11 @@ namespace Swastha_App.Controllers
         }
 
 
-        [HttpPost("{username}/{password}")]
-        public User Get(string username, string password)
-        {
-            return db.Users.FirstOrDefault(u => u.Username.Equals(username) && u.Password.Equals(password));
-        }
+        //[HttpPost("{username}/{password}")]
+        //public User Get(string username, string password)
+        //{
+        //    return db.Users.FirstOrDefault(u => u.Username.Equals(username) && u.Password.Equals(password));
+        //}
 
     }
 }

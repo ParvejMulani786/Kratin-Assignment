@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xRWg8D+dk3pjpvDvN/eXPVFok80N6zxI6XUzzeCIZLooCJyOhYO44aTsjYw0nS+RDUU2AHWvpahx+4TpIxQ0uw==",
+  "dgSpecHash": "3/drf8POF/VD+qU0rcDSrcfo29QhqqcX2ETr65Nu4pdobtiUDv+w2WJ/ZwIvuIuWyaQt3ApXBywrD6OgDRPbyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Downloads\\Kratin Assignmenet\\Back-End\\Swastha_App\\Swastha_App.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Downloads\\Kratin Assignmenet\\HealthCare Project with JWT\\Back-End + JWT\\Swastha_App\\Swastha_App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
