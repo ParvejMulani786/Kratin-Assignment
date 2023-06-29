@@ -35,20 +35,18 @@ In this way, this application makes user happy.
 
 **Features an functionalities**
 
-*Registration and Login*
-Features like Registration added. In-app registration and user 
-logins can let the users input their information, so that they can fix appointment 
-with doctor(in future) as well as manage theire appointment history.
+**Registration and Login**
+Features like Registration added. In-app user Authentication and Authorization is validated by JSON Web Token (JWT) , Only valid user can access the services.
 
-*Latest News*
+**Latest News**
 The app has feature that track the changes and updates of the medical industry.
 Our application show all latest news realated to diseases and their preventions.
  
-*Health Blogs*
+**Health Blogs**
 The user can get proper guidance from blogs about healthy lifestyle, which helps them to understand cause of diseases and 
 theire preventions also.Main objective of blogs is that user find cure for diseases. 
  
-*Health Education through Video Tutorials*
+**Health Education through Video Tutorials**
 video tutorials improves health awareness.
 Focus on improving patient satisfaction.
 promote active patient participation in treatment decisions.
