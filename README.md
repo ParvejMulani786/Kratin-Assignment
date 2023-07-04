@@ -1,5 +1,5 @@
 # SWASTHA APP # 
-The aim of this application is to have Sunita sharma or any other senior citizen whose age is 65 healthy and better life. I have made this application in which senior citizen can find various features related to health.
+The aim of this application is to have senior citizen whose age is 65 and above healthy and better life. I have made this application in which senior citizen can find various features related to health.
 
 ### Problem Statement ###
 How can you help Sunita Sharma (65+ years old) to live a healthier and better life?
